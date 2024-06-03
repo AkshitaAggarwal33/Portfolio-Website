@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Akshita Aggarwal </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Akshita <span>Aggarwal</span></a>
+
+        <i class='bx bx-menu' id="menu-icon" onscroll="openmenu()"></i>
+
+        <nav class="navbar" >
+            <a href="#home" class="active" onclick="open()">Home</a>
+            <a href="#About-Me">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home" >
+        <div class="home-content" ">
+            <h1>Hi, It's <span>Akshita</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>"I am a fast learner and Web Development enthusiast. Having Been someone who have immense desire to learn new things and want to explore and expertise in tech world. Looking for the great opportunities in the field of Web Development. I also aim to work hard to achieve my target and give best perfomance in the organization"</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/akshita-aggarwal-432610254/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/AkshitaAggarwal33"><i class='bx bxl-github'></i></box-icon></a>
+                <a href="https://www.instagram.com/akshitaaggarwal33"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://x.com/Akshita43579356"><i class='bx bxl-twitter' ></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./images/image.jpg" alt="profile-photo">
+        </div>
+    </section>
+
+    <section class="About-Me" id="About-Me">
+        <h2 class="heading">About Me</h2>
+        <p>Myself <span>Akshita Aggarwal</span> , pursuing B.Tech from non-cs background at Netaji Subash University of Technology, Delhi. Having Been someone who have immense desire to learn new things and want to explore and expertise in tech world.I believe in community based learning and solving the real world problems which affect the majority of the community. I am eager to utilize my innovative abilities and skills to accomplish the projects</p>
+        <p>Currently I am working on a <span>Government Project</span> on Predictive Maintenance of solar panels which solves the real world problem under my college professor.</p>
+        <p class="connect">If you love to code without getting tired</p>
+        <p class="connect2">I would love to connect! Let's come together to bring useful contribution to the tech world <br> Here's my resume</p>
+        <a href="Resume.pdf" download class="btn btn2" >Download Resume</a>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>10th class</h3>
+                        <p>Passed 10th class with 97% from Delhi Public School, Ballabgarh Harayana </p>
+                    </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>12th class</h3>
+                        <p>Passed 12th class with 87% from Delhi Public School, Ballabgarh Harayana from non med stream</p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022-2026</div>
+                    <div class="timeline-content">
+                        <h3>Graduation</h3>
+                        <p>Pursuing B.Tech from Netaji Subash University of Technology, Delhi from non cs background</p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Frontend Design</h4>
+                    <p>I am a frontend designer and love to design the creative look of the websites <br>Skills - HTML, Cascading Style Sheets(CSS), Javascript(JS), CSS Tailwind, Bootstrap, GreenSock Animation Platform (GSAP)</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Backend Design</h4>
+                    <p>I am a backend developer too and I love to think innovatively and logically. <br>Skills - NodeJS, React, MongoDB, ExpressJS, SQL, Databases, RBMS, NOSQL, MULTER</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form name="submit-to-google-sheet">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" name="Name">
+                    <input type="email" name="Email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone number" name="Phone No.">
+                    <input type="text" placeholder="Subject" name="Subject">
+                </div>
+            </div>
+            <div class="input-group2">
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+        <span id="msg"></span>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/akshita-aggarwal-432610254/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/AkshitaAggarwal33"><i class='bx bxl-github'></i></box-icon></a>
+                <a href="https://www.instagram.com/akshitaaggarwal33"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://x.com/Akshita43579356"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Akshita Aggarwal | All Rights Reserved 
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyWln3jbBW6GO5v3rubTivyPXDWrV4yIjZGAvRSsuyyyDLl3HAC819hq5KoBzA5rsEB/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully !"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
